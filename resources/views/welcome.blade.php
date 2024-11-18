@@ -65,7 +65,7 @@
     <main>
         <section id="home">
             <h2>Nossas Especialidades</h2>
-            <p>Descubra os pratos deliciosos que temos para oferecer. Venha experimentar um sabor único!</p>
+            <p>Descubra os pratos deliciosos que temos para oferecer.</p>
         </section>
 
         <section id="menu">
@@ -78,7 +78,7 @@
         </section>
     </main>
 
-    <footer id="footer">
+    <footer id="contato">
         <div class="container">
             <p>&copy; 2024 Restaurante . Todos os direitos reservados.</p>
             <p>Contato: <a href="mailto:contato@restaurante.com" style="color: white;">contato@restaurante.com</a></p>
