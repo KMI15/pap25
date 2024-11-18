@@ -57,7 +57,9 @@
             <ul>
                 <li><a href="#home">Início</a></li>
                 <li><a href="#menu">Menu</a></li>
-                <li><a href="#footer">Contato</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="register">Register</a></li>
             </ul>
         </nav>
     </header>

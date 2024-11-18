@@ -1,20 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\Category;
 use App\Http\Controllers\RestaurantController;
+use App\Http\Controllers\AuthController;
 
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/categories', function () {
-    $categories = Category::all();    
-    return view('categories.index', compact('categories'));
-});
-
 Route::get('/', [RestaurantController::class, 'index']);
+Route::get('/login', [AuthController::class, 'LoginForm']);
+Route::get('/register', [AuthController::class, 'RegisterForm']);
 
 
 Route::middleware([
