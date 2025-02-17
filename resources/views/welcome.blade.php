@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante</title>
+    <title>Portal de Volanturiado Juvenil</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -52,7 +52,7 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Restaurante</h1>
+        <h1>Bem-vindo ao Portal</h1>
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
@@ -66,24 +66,13 @@
 
     <main>
         <section id="home">
-            <h2>Nossas Especialidades</h2>
-            <p>Descubra os pratos deliciosos que temos para oferecer.</p>
-        </section>
-
-        <section id="menu">
-            <h2>Nossos Pratos</h2>
-            <ul>
-                <li>Pizza - 15</li>
-                <li>Lasanha -  12</li>
-                <li>Francesinha - 10</li>
-            </ul>
-        </section>
+            <h2>Seja bem-vindo!</h2>
     </main>
 
     <footer id="contato">
         <div class="container">
-            <p>&copy; 2024 Restaurante . Todos os direitos reservados.</p>
-            <p>Contato: <a href="mailto:contato@restaurante.com" style="color: white;">contato@restaurante.com</a></p>
+            <p>&copy; 2024 PdVL . Todos os direitos reservados.</p>
+            <p>Contato: <a href="mailto:contato@portalVL.com" style="color: white;">contato@portalVL.com</a></p>
         </div>
     </footer>
 </body>
